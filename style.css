@@ -1,0 +1,37 @@
+* {
+    padding: 2%;
+    margin: 2%;
+}
+
+.col{
+    margin: 1%;
+}
+
+.blue-bg {
+    background-color: rgb(215, 233, 253);
+
+}
+
+.blue-border {
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid rgb(27, 155, 234);
+
+}
+
+.purple-bg {
+    background-color: rgb(226, 215, 253);
+}
+
+.purple-border {
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid rgb(133, 51, 191);
+}
+
+.pink-bg {
+    background-color: rgb(252, 218, 228);
+}
+
+.pink-border {
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid rgb(218, 12, 187);
+}

@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Vinculación CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -19,18 +23,34 @@
         crossorigin="anonymous"></script>
     <title>Kata Bootstrap</title>
 </head>
-
 <body>
-    <p>This is a single column.</p>
+    <div class="container-fluid">
+        <div class="blue blue-bg blue-border">
+            <p>This is a single column.</p>
+        </div>
 
-    <p>This is the first column.</p>
-    <p>This is the second column.</p>
+        <div class="row">
+            <div class="col purple-bg purple-border">
+                <p>This is the first column.</p>
+            </div>
+            <div class="col purple-bg purple-border">
+                <p>This is the second column.</p>
+            </div>
+        </div>
 
-    <p>This is the first column.</p>
-    <p>This is the second column.</p>
-    <p>This is the third column.</p>
-    <p>This is the fourth column.</p>
-
+        <div class="row">
+            <div class="col pink-bg pink-border">
+                <p>This is the first column.</p>
+            </div>
+            <div class="col pink-bg pink-border">
+                <p>This is the second column.</p>
+            </div>
+            <div class="col pink-bg pink-border">
+                <p>This is the third column.</p>
+            </div>
+            <div class="col pink-bg pink-border">
+                <p>This is the fourth column.</p>
+            </div>
+        </div>
+    </div>
 </body>
-
-</html>
